@@ -10,7 +10,7 @@ public class WaitAndNotifyThread {
         Thread notifyThread = new Thread(new WaitAndNotifyThread.NotifyThread());
         notifyThread.start();
         System.out.println("hello world");
-        System.out.println("this is a master-bak branch");
+        System.out.println("this is a master-bak-bak branch");
     }
 
     static class WaitThread implements Runnable{
