@@ -10,7 +10,7 @@ public class WaitAndNotifyThread {
         Thread notifyThread = new Thread(new WaitAndNotifyThread.NotifyThread());
         notifyThread.start();
         System.out.println("hello world");
-        System.out.println("this is a main branch");
+        System.out.println("this is a dev branch");
     }
 
     static class WaitThread implements Runnable{
